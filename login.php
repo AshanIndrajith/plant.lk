@@ -16,8 +16,8 @@
       <a class="nav-a" href="#">Partners</a>
       <a class="nav-a" href="#">Price</a>
       <a class="nav-a" href="#">Contacts</a>
-      <a class="nav-a" href="#">Login</a>
-      <a class="nav-a" href="#">Register</a>
+      <a class="nav-a" href="login.php">Login</a>
+      <a class="nav-a" href="registration.php">Register</a>
     </nav><br><br>
 
 
