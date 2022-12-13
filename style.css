@@ -5,22 +5,37 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background:url(image/background.jfif) no-repeat top center #efeff1;
+ 
   background-size:cover;
 }
-.thx{
-  position: fixed;
-  left:50%;
-  transform:translateX(-50%);
-  bottom: 15px;
+
+
+
+.back-cont{
+	background:#f1f2ed;
+	width: 1500px;
+	height: 650px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	margin-top:100px;
+	position: absolute;
+	top:55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: url(image/login.png) no-repeat center fixed;
+  
 }
-nav{
+
+.nav-main{
   width: 100%;
   position: fixed;
   top:50px;
   text-align:center;
 }
-nav a{
+.nav-a{
   font-family: 'Oswald', sans-serif;
   font-weight:500;
   text-transform:uppercase;
@@ -32,7 +47,7 @@ nav a{
   position:relative;
   display:inline-block;
 }
-nav a:before{
+.nav-a:before{
   content:'';
   position: absolute;
   width: 100%;
@@ -41,10 +56,13 @@ nav a:before{
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
-nav a:hover:before{
+.nav-a:hover:before{
   animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 
 }
+
+
+
 @keyframes in{
   0%{
     width: 0;
@@ -85,3 +103,6 @@ nav a:hover:before{
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
 }
+
+
+

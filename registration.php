@@ -3,9 +3,23 @@
     <meta charset="utf-8">
     <title>Form</title>
     <link href="plant_reg.css" type="text/css" rel="stylesheet">
+    <link href="styleother.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+  <div class="back"></div>
+    <nav class="nav-main">
+      <a class="nav-a" href="#">About</a>
+      <a class="nav-a" href="#">Works</a>
+      <a class="nav-a" href="#">Partners</a>
+      <a class="nav-a" href="#">Price</a>
+      <a class="nav-a" href="#">Contacts</a>
+      <a class="nav-a" href="#">Login</a>
+      <a class="nav-a" href="#">Register</a>
+    </nav><br><br>
+
+
     <!-- Body of Form starts -->
   	<div class="container">
       <form method="post" autocomplete="on" onsubmit="return allLetter()">

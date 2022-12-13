@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
 
-.thx{
-  position: fixed;
-  left:50%;
-  transform:translateX(-50%);
-  bottom: 15px;
+
+
+.back{
+
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
-.nav-bar{
+.nav-main{
   width: 100%;
   position: fixed;
   top:50px;
   text-align:center;
 }
-nav a{
+.nav-a{
   font-family: 'Oswald', sans-serif;
   font-weight:500;
   text-transform:uppercase;
@@ -24,7 +25,7 @@ nav a{
   position:relative;
   display:inline-block;
 }
-nav a:before{
+.nav-a:before{
   content:'';
   position: absolute;
   width: 100%;
@@ -33,7 +34,7 @@ nav a:before{
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
-nav a:hover:before{
+.nav-a:hover:before{
   animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 
 }

@@ -2,22 +2,24 @@
 	padding: 0;
 	margin: 0;
 }
-body{
-  background: url(image/login.png) no-repeat center fixed;
-  background-size: cover;
-}
+
 
 .container{
 	background:#f1f2ed;
-	width: 350px;
-	height: 200px;
+	width: 500px;
+	height: 650px;
 	padding-bottom: 20px;
+	padding-top: 50px;
+	margin-top:100px;
 	position: absolute;
-	top:50%;
+	top:55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: auto;
   padding: 70px 50px 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: url(image/login.png) no-repeat center fixed;
+  
 }
 
 
