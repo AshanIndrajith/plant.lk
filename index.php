@@ -60,10 +60,26 @@
 
    
 
+<button type="button" class="btn btn-warning"  style="margin-top:50px;margin-left:350px;padding:20px;color: black;
+	font-weight: bold;">Explore </i></button>
+
+<div class="map"> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63389.4020151619!2d79.9012898931661!3d6.789604093627463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f91d281cc5d%3A0xea4b2fcd3ce0e74e!2sPiliyandala!5e0!3m2!1sen!2slk!4v1670933304960!5m2!1sen!2slk"
+   width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
  
     </div>
    
   </div>
+
+ 
+
+  
+
+ 
+
+
 </div>
 
 
